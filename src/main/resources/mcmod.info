@@ -1,0 +1,16 @@
+[
+{
+  "modid": "occmod",
+  "name": "Birthday Mod",
+  "description": "Birthday Mod.",
+  "version": "${0.1}",
+  "mcversion": "${1.11.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Shhade"],
+  "credits": "The Forge and FML guys, Shhade, OCC",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

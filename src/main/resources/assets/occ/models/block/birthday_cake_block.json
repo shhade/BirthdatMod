@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "occ:blocks/birthday/birthday_cake_block"
+    }
+}
+
