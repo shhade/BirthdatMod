@@ -4,11 +4,13 @@ import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import occmod.init.BlockInit;
 import occmod.init.ItemInit;
+import occmod.init.ToolInit;
 
 public class RegistryHandler {
     
     public static void Client() {
     	ItemInit.register();
+    	ToolInit.register();
     	//occmod.init.birthday.ItemInit.register();
     	BlockInit.registerRenders();
     	//occmod.init.birthday.BlockInit.registerRenders();
@@ -25,6 +27,8 @@ public class RegistryHandler {
     	//occmod.init.birthday.ItemInit.Recipitate();
     	BlockInit.Recipitate();
     	//occmod.init.birthday.BlockInit.Recipitate();
+    	ToolInit.init();
+    	ToolInit.Recipitate();
     	
     }
     
